@@ -10,7 +10,7 @@
 	<meta name="author" content="Marcelo Garbin">
 	<link rel="icon" href="{{ asset('favicon.gif') }}">
 
-	<title>@yield('title')</title>
+	<title>@yield('title', 'The Laravel 5.3 Blog')</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="{{ asset('css/app.css') }}" rel="stylesheet">
